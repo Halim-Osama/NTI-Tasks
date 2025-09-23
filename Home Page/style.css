@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #fff;
+    --blue-color: #0e82fd;
+    --gradient-color: linear-gradient(90.08deg, #0e82fd .09%, #06aed4 70.28%);
+    --muted-color: #f6faff;
+    --available-color: #edf9f0;
+    --unavailable-color: #ffede9;
+    --star-color: #ffc107;
+    --title-color: #012047;
+    --secondary-color: #eaf3ff;
+}
+
+.unavailable {
+    background-color: var(--unavailable-color);
+    color: red;
+}
+
+.available {
+    background-color: var(--available-color);
+    color: #04bd6c;
+}
+
+.muted {
+    background-color: var(--muted-color);
+}
+
+.blue {
+    color: var(--blue-color);
+}
+
+.gradient {
+    color: var(--gradient-color);
+}
+
+.star {
+    color: var(--star-color);
+}
+
+.title {
+    color: var(--title-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.background {
+    background-image: url(background\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
